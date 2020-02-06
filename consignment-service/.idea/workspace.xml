@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d2905d0-214f-4af4-bba0-691aa0890220" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go1.13.7.linux-amd64" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1XPkKJUqpcen71HdAH42rVHXpCS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../user-service" />
+  </component>
+  <component name="RunManager">
+    <configuration name="update_proto" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="update_proto" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.update_proto" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1557" y="324" width="420" height="477" key="FileChooserDialogImpl" timestamp="1580955056119">
+      <screen x="0" y="28" width="2560" height="1052" />
+    </state>
+    <state x="1557" y="324" width="420" height="477" key="FileChooserDialogImpl/0.28.2560.1052/2560.18.1920.1080@0.28.2560.1052" timestamp="1580955056119" />
+    <state width="1458" height="260" key="GridCell.Tab.0.bottom" timestamp="1580985912378">
+      <screen x="0" y="28" width="2560" height="1052" />
+    </state>
+    <state width="1458" height="260" key="GridCell.Tab.0.bottom/0.28.2560.1052/2560.18.1920.1080@0.28.2560.1052" timestamp="1580985912378" />
+    <state width="1458" height="260" key="GridCell.Tab.0.center" timestamp="1580985912378">
+      <screen x="0" y="28" width="2560" height="1052" />
+    </state>
+    <state width="1458" height="260" key="GridCell.Tab.0.center/0.28.2560.1052/2560.18.1920.1080@0.28.2560.1052" timestamp="1580985912378" />
+    <state width="1458" height="260" key="GridCell.Tab.0.left" timestamp="1580985912378">
+      <screen x="0" y="28" width="2560" height="1052" />
+    </state>
+    <state width="1458" height="260" key="GridCell.Tab.0.left/0.28.2560.1052/2560.18.1920.1080@0.28.2560.1052" timestamp="1580985912378" />
+    <state width="1458" height="260" key="GridCell.Tab.0.right" timestamp="1580985912378">
+      <screen x="0" y="28" width="2560" height="1052" />
+    </state>
+    <state width="1458" height="260" key="GridCell.Tab.0.right/0.28.2560.1052/2560.18.1920.1080@0.28.2560.1052" timestamp="1580985912378" />
+  </component>
+</project>

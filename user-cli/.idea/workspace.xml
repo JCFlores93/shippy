@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="112f8928-df9d-4911-9b90-aefe873c6334" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go1.13.7.linux-amd64" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1XPk9PTfpvIHOv05g1lJZjd99zS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../consignment-cli" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1366" y="225" width="802" height="674" key="#GOROOT" timestamp="1580955104776">
+      <screen x="0" y="28" width="2560" height="1052" />
+    </state>
+    <state x="1366" y="225" width="802" height="674" key="#GOROOT/0.28.2560.1052/2560.18.1920.1080@0.28.2560.1052" timestamp="1580955104776" />
+    <state x="1557" y="324" width="420" height="477" key="FileChooserDialogImpl" timestamp="1580955043066">
+      <screen x="0" y="28" width="2560" height="1052" />
+    </state>
+    <state x="1557" y="324" width="420" height="477" key="FileChooserDialogImpl/0.28.2560.1052/2560.18.1920.1080@0.28.2560.1052" timestamp="1580955043066" />
+  </component>
+</project>
