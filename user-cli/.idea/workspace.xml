@@ -3,19 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="112f8928-df9d-4911-9b90-aefe873c6334" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../consignment-cli/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-cli/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consignment-cli/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-cli/cli.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../consignment-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user-service/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-service/proto/user/extensions.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/proto/user/extensions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vessel-service/.idea/vessel-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/.idea/vessel-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vessel-service/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vessel-service/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/repository.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

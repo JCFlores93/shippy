@@ -3,19 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7d4d9d78-bf9e-4f83-a6b6-dc759a0742d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../consignment-cli/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-cli/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consignment-cli/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-cli/cli.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../consignment-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user-cli/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-cli/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/cli.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/user/extensions.go" beforeDir="false" afterPath="$PROJECT_DIR$/proto/user/extensions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vessel-service/.idea/vessel-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/.idea/vessel-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vessel-service/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vessel-service/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/repository.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +58,10 @@
     <proxy>direct</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1617" y="295" width="420" height="477" key="FileChooserDialogImpl" timestamp="1580988431375">
+    <state x="1617" y="295" width="420" height="477" key="FileChooserDialogImpl" timestamp="1580992293713">
       <screen x="0" y="28" width="2560" height="1052" />
     </state>
-    <state x="1617" y="295" width="420" height="477" key="FileChooserDialogImpl/0.28.2560.1052/2560.18.1920.1080@0.28.2560.1052" timestamp="1580988431375" />
+    <state x="1617" y="295" width="420" height="477" key="FileChooserDialogImpl/0.28.2560.1052/2560.18.1920.1080@0.28.2560.1052" timestamp="1580992293713" />
     <state width="1406" height="260" key="GridCell.Tab.0.bottom" timestamp="1580988183452">
       <screen x="0" y="28" width="2560" height="1052" />
     </state>

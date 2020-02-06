@@ -1,22 +1,29 @@
 package main
 
 import (
+	"encoding/json"
 	"errors"
 	pb "github.com/JCFlores93/shippy/user-service/proto/user"
+	"github.com/micro/go-micro"
+	"github.com/micro/go-micro/broker"
 	"golang.org/x/crypto/bcrypt"
 	"golang.org/x/net/context"
 	"log"
 )
 
+const topic = "user.created"
+
 type service struct {
-	repo Repository
+	repo         Repository
 	tokenService Authable
+	//PubSub       broker.Broker
+	Publisher micro.Publisher
 }
 
 func (srv *service) Get(ctx context.Context, req *pb.User, res *pb.Response) error {
 	user, err := srv.repo.Get(req.Id)
 	if err != nil {
-		return  err
+		return err
 	}
 	res.User = user
 	return nil
@@ -61,11 +68,21 @@ func (srv *service) Create(ctx context.Context, req *pb.User, res *pb.Response) 
 	if err != nil {
 		return err
 	}
+
 	req.Password = string(hashedPass)
+
+	// Here's our new publisher code, much simpler
 	if err := srv.repo.Create(req); err != nil {
 		return err
 	}
+
 	res.User = req
+	//if err := srv.publishEvent(req); err != nil {
+	//	return err
+	//}
+	if err := srv.Publisher.Publish(ctx, req); err != nil {
+		return err
+	}
 	return nil
 }
 
@@ -84,5 +101,28 @@ func (srv *service) ValidateToken(ctx context.Context, req *pb.Token, res *pb.To
 	}
 
 	res.Valid = true
+	return nil
+}
+
+func (srv *service) publishEvent(user *pb.User) error {
+	// Marshal to JSON string
+	body, err := json.Marshal(user)
+	if err != nil {
+		return err
+	}
+
+	// Create a broker message
+	msg := &broker.Message{
+		Header: map[string]string{
+			"id": user.Id,
+		},
+		Body: body,
+	}
+
+	// Publish message to broker
+	if err := srv.PubSub.Publish(topic, msg); err != nil {
+		log.Printf("[pub] failed: %v", err)
+	}
+
 	return nil
 }
