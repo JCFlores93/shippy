@@ -1,7 +1,7 @@
 package main
 import (
 	"fmt"
-	pb "github.com/JCFlores93/shippy-service-vessel/proto/vessel"
+	pb "github.com/JCFlores93/shippy/vessel-service/proto/vessel"
 	"github.com/micro/go-micro"
 	"log"
 	"os"

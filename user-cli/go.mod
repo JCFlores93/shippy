@@ -3,9 +3,11 @@ module github.com/JCFlores93/shippy/user-cli
 go 1.13
 
 require (
+	github.com/JCFlores93/shippy/user-service v0.0.0-20200206105018-b50677159fa3
 	github.com/coreos/etcd v3.3.18+incompatible // indirect
 	github.com/go-log/log v0.2.0 // indirect
 	github.com/gogo/protobuf v1.3.1 // indirect
+	github.com/jinzhu/gorm v1.9.12 // indirect
 	github.com/json-iterator/go v1.1.9 // indirect
 	github.com/lucas-clemente/quic-go v0.14.3 // indirect
 	github.com/marten-seemann/qtls v0.7.0 // indirect
@@ -20,6 +22,7 @@ require (
 	golang.org/x/lint v0.0.0-20200130185559-910be7a94367 // indirect
 	golang.org/x/net v0.0.0-20200202094626-16171245cfb2 // indirect
 	golang.org/x/sys v0.0.0-20200202164722-d101bd2416d5 // indirect
-	golang.org/x/tools v0.0.0-20200204230316-67a4523381ef // indirect
-	google.golang.org/genproto v0.0.0-20200204235621-fb4a7afc5178 // indirect
+	golang.org/x/tools v0.0.0-20200206050830-dd0d5d485177 // indirect
+	google.golang.org/genproto v0.0.0-20200205142000-a86caf926a67 // indirect
+	google.golang.org/grpc v1.27.1 // indirect
 )

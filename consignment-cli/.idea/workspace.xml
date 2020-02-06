@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40828c93-4d57-4e87-8a82-4b8ae4ebd381" name="Default Changelist" comment="" />
+    <list default="true" id="40828c93-4d57-4e87-8a82-4b8ae4ebd381" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consignment-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-cli/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-cli/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-cli/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-cli/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="GOROOT" path="/usr/local/go1.13.7.linux-amd64" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1XPkJUtyhoReb0ps9MEWy41hqgT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />

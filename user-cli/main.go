@@ -27,7 +27,7 @@ func main() {
 	// Create new greeter client
 	client := pb.NewUserServiceClient("go.micro.srv.user", microclient.DefaultClient)
 
-	file := defaul
+	file := defaultfilenmae
 
 	name := "Ewan Valentine"
 	email := "ewan.valentine89@gmail.com"

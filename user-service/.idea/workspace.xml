@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d4d9d78-bf9e-4f83-a6b6-dc759a0742d1" name="Default Changelist" comment="" />
+    <list default="true" id="7d4d9d78-bf9e-4f83-a6b6-dc759a0742d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../consignment-cli/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-cli/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consignment-cli/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-cli/cli.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consignment-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consignment-service/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-service/repository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-cli/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-cli/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-cli/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-cli/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vessel-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vessel-service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="GOROOT" path="/usr/local/go1.13.7.linux-amd64" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1XPkL6CVPRKgf1zu3auCX9dLl6Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,7 +41,20 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vessel-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="build" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />

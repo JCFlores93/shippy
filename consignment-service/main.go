@@ -14,7 +14,7 @@ import (
 	// Import the generated protobuf code
 	pb "github.com/JCFlores93/shippy/consignment-service/proto/consignment"
 	userService "github.com/JCFlores93/shippy/user-service/proto/user"
-	vesselProto "github.com/JCFlores93/shippy-service-vessel/proto/vessel"
+	vesselProto "github.com/JCFlores93/shippy/vessel-service/proto/vessel"
 )
 
 const (

@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"errors"
-	pb "github.com/JCFlores93/shippy-service-consignment/proto/consignment"
-	vesselProto "github.com/JCFlores93/shippy-service-vessel/proto/vessel"
+	pb "github.com/JCFlores93/shippy/consignment-service/proto/consignment"
+	vesselProto "github.com/JCFlores93/shippy/vessel-service/proto/vessel"
 )
 
 type handler struct {
