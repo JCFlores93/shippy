@@ -5,12 +5,17 @@
       <change beforePath="$PROJECT_DIR$/../consignment-cli/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-cli/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../consignment-cli/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-cli/cli.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../consignment-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/proto/user/extensions.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/proto/user/extensions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vessel-service/.idea/vessel-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/.idea/vessel-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vessel-service/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vessel-service/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/repository.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../consignment-cli" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />

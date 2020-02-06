@@ -14,7 +14,7 @@ type service struct {
 }
 
 func (srv *service) Get(ctx context.Context, req *pb.User, res *pb.Response) error {
-	user, err := srv.repo.Get(ctx, req.Id)
+	user, err := srv.repo.Get(req.Id)
 	if err != nil {
 		return  err
 	}
@@ -23,7 +23,7 @@ func (srv *service) Get(ctx context.Context, req *pb.User, res *pb.Response) err
 }
 
 func (srv *service) GetAll(ctx context.Context, req *pb.Request, res *pb.Response) error {
-	users, err := srv.repo.GetAll(ctx)
+	users, err := srv.repo.GetAll()
 	if err != nil {
 		return err
 	}
@@ -62,7 +62,7 @@ func (srv *service) Create(ctx context.Context, req *pb.User, res *pb.Response) 
 		return err
 	}
 	req.Password = string(hashedPass)
-	if err := srv.repo.Create(ctx, req); err != nil {
+	if err := srv.repo.Create(req); err != nil {
 		return err
 	}
 	res.User = req

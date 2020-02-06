@@ -4,10 +4,10 @@ services:
   consignment-cli:
     build: ./consignment-cli
 
-  shipppy-service-consignment:
+  consignment-service:
     restart: always # ensures the container will restart on crash
-    container_name: "shippy-service-consignment"
-    build: .
+    container_name: "consignment-service"
+    build: ./consignment-service
     ports:
       - 50051 # exposing this port on the docker network only, not host
     links:
@@ -22,7 +22,7 @@ services:
       MICRO_ADDRESS: ":50051"
 
   vessel-service:
-    build: ./shippy-service-vessel
+    build: ./vessel-service
     ports:
       - 50052:50051
     environment:
@@ -30,7 +30,7 @@ services:
       DB_HOST: "datastore:27017"
 
   user-service:
-    build: ./shippy-service-user
+    build: ./user-service
     ports:
       - 50053:50051
     environment:

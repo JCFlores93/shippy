@@ -6,15 +6,14 @@ import (
 	"os"
 
 	pb "github.com/JCFlores93/shippy/user-service/proto/user"
+	//"github.com/micro/cli"
 	micro "github.com/micro/go-micro"
 	microclient "github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/config/cmd"
+	//"github.com/micro/go-micro/config/cmd"
 )
 
 func main() {
-
 	srv := micro.NewService(
-
 		micro.Name("go.micro.srv.user-cli"),
 		micro.Version("latest"),
 	)
@@ -22,12 +21,7 @@ func main() {
 	// Init will parse the command line flags.
 	srv.Init()
 
-	cmd.Init()
-
-	// Create new greeter client
 	client := pb.NewUserServiceClient("go.micro.srv.user", microclient.DefaultClient)
-
-	file := defaultfilenmae
 
 	name := "Ewan Valentine"
 	email := "ewan.valentine89@gmail.com"

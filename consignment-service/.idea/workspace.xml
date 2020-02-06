@@ -5,21 +5,18 @@
       <change beforePath="$PROJECT_DIR$/../consignment-cli/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-cli/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../consignment-cli/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/../consignment-cli/cli.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/repository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user-cli/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-cli/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-cli/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-cli/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-service/.idea/user-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/.idea/user-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-cli/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-cli/cli.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-service/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/proto/user/extensions.go" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/proto/user/extensions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vessel-service/.idea/vessel-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/.idea/vessel-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vessel-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vessel-service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vessel-service/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vessel-service/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/../vessel-service/repository.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
